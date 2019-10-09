@@ -1,0 +1,113 @@
+              
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>About me</title>
+  </head>
+  <body>
+      <a href="form.html" data-toggle="modal" data-target="#theModal">Lab 6</a>
+    <h1>Lundell, Sarah</h1>
+    
+    <div class="card">
+      <div class="card-body">
+        <p>Welcome to my website! I am a student at CU Boulder
+          <br>in a software development class. My major is computer
+          <br>science. I am studying computer science because I 
+          <br>enjoy problem solving!
+        </p>
+      </div>
+    </div>
+    <h2>My Professional Profile</h2>
+    <button type="button" class="btn btn-info" href="https://github.com/slundell123">
+      Sarah's Github
+    </button>
+    <br>
+    <img src="https://media.licdn.com/dms/image/C4E03AQGAVmKTD9b81A/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=Co53--D_Hq1Q1IP8tP9yMPBnJr0KWO4EwIm5SyGAayk" alt="Picture of me" class="rounded-circle"> 
+    <h3>My Favorite Projects </h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Name of Project</th>
+          <th scope="col">Technologies Used</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">Intel Internship</th>
+          <td>Vue.js, Python, HTML, CSS, java</td>
+        </tr>
+        <tr>
+          <td scope="row">Micron Internship</th>
+          <td>HTML, CSS, Django, Python, SQL, Qjuery</td>
+        </tr>
+        <tr>
+          <td scope="row">HPE/Aruba Internship</th>
+          <td>TCL, TK, Python</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <p>
+        <div class="row">
+        <a class="btn btn-info col" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" style="margin-right:5px">Countries traveled</a>
+        <button class="btn btn-info col"  type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">My Interests</button>
+          </div>
+      </p>
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+                    <ul>
+                        <li>Austria</li>
+                        <li>Switzerland</li>
+                        <li>Sweden</li>
+                        <li>France</li>
+                        <li>England</li>
+                        <li>Japan</li>
+                        <li>Canada</li>
+                        <li>Bahamas</li>
+                        <li>Costa Rica</li>
+                        <li>Finland</li>
+                        <li>Australia</li>
+                      </ul> 
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+                <ol>
+                    <li>Coding</li>
+                    <li>Reading</li>
+                    <li>Travel</li>
+                  </ol>            </div>
+          </div>
+        </div>
+      </div>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style = "margin-top: 25px">Click Me!</button>
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">You clicked</h4>
+      </div>
+      <div class="modal-body">
+        <p>Good job</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  </body>
+</html>
+
+        
